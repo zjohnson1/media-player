@@ -1,5 +1,5 @@
 .mejs-treehouse .mejs-controls {
-  background: rgba(56,64,71,0.98);
+  background: rgba(23,153,142,3.98);
   height: 30px;
 }
 
@@ -26,9 +26,29 @@
   border-radius: 0px;
 }
 
+.mejs-treehouse .mejs-controls .mejs-time-rail .mejs-time-total,
+.mejs-treehouse .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.mejs-treehouse .mejs-controls .mejs-time-rail .mejs-time-buffering,
+.mejs-treehouse .mejs-controls .mejs-time-rail .mejs-time-handle{
+  background: #508672;
+  margin: 0;
+}
 
+.mejs-treehouse .mejs-controls .mejs-time-rail .mejs-time-current{
+    background: linear-gradient(#8CFFCB, #50866E);
+}
 
+.mejs-treehouse .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current{
+    background: #8CFFD6;
+}
 
+.mejs-treehouse .mejs-controls .mejs-time-rail .mejs-time-total .mejs-time-float{
+  border: none;
+  background: #FF8165;
+  opacity: .5;
+  border-radius: 5px;
+  top: -32px;
+}
 
 
 
